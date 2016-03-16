@@ -63,7 +63,7 @@ declare module reactRouterRedux {
 	 * @param {IAction} action (description)
 	 * @returns {Location} (description)
 	 */
-	export function routeReducer(state: IRouterState, action: RouterAction): IRouterState;
+	export function routerReducer(state: IRouterState, action: RouterAction): IRouterState;
     
         
     /**
